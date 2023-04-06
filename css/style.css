@@ -1,0 +1,15 @@
+.hidden {  /* 요소 숨김, hidden이란 classname만 더해주면 돰 */
+    display: none;
+}
+
+img {  /* 사진을 배경이미지로 넣음 */
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+    }
